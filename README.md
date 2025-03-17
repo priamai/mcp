@@ -38,6 +38,26 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+### 4. Configure API Keys and Environment Variables  
+This project requires API keys for VirusTotal and other services. You must create a `.env` file in the project root and add the required API keys.
+
+#### Example `.env` file for Azure OpenAI:
+
+```env
+VIRUSTOTAL_API_KEY=your_virustotal_api_key
+AZURE_OPENAI_API_KEY=your_azure_openai_api_key
+AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
+AZURE_OPENAI_API_VERSION=your_api_version
+AZURE_OPENAI_DEPLOYMENT=your_deployment_name
+```
+
+#### Example `.env` file for OpenAI:
+
+```env
+VIRUSTOTAL_API_KEY=your_virustotal_api_key
+OPENAI_API_KEY=your_openai_api_key
+```
+
 ### 4. Run the MCP Server
 ```sh
 python client.py
