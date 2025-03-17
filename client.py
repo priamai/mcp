@@ -25,7 +25,7 @@ llm = AzureChatOpenAI(
 # MCP Server connection parameters
 server_params = StdioServerParameters(
     command="python",
-    args=["mpc-virustotal-server.py"],
+    args=["servers/mpc-virustotal-server.py"],
 )
 
 

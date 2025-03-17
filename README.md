@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### 4. Run the MCP Server
 ```sh
-python client-agent.py
+python client.py
 ```
 
 ## Available Tools on VirusTotal Server
