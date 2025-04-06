@@ -39,12 +39,13 @@ pip install -r requirements.txt
 ```
 
 ### 4. Configure API Keys and Environment Variables  
-This project requires API keys for VirusTotal and other services. You must create a `.env` file in the project root and add the required API keys.
+This project requires API keys for VirusTotal and RSTcloud. You must create a `.env` file in the project root and add the required API keys.
 
 #### Example `.env` file for Azure OpenAI:
 
 ```env
 VIRUSTOTAL_API_KEY=your_virustotal_api_key
+RSTCLOUD_API_KEY=your_rstcloud_api_key
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
 AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
 AZURE_OPENAI_API_VERSION=your_api_version
