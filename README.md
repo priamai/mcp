@@ -1,5 +1,9 @@
 # Model Context Protocol (MCP) for Cybersecurity   
 
+[![smithery badge](https://smithery.ai/badge/@AshfaaqF/mcp-priam-rstcloud)](https://smithery.ai/server/@AshfaaqF/mcp-priam-rstcloud)
+[![smithery badge](https://smithery.ai/badge/@AshfaaqF/mcp-priam-virustotal)](https://smithery.ai/server/@AshfaaqF/mcp-priam-virustotal)
+
+
 ## Introduction  
 The **Model Context Protocol (MCP)** is a framework designed to standardize and streamline communication between AI agents and various data sources. It facilitates context-aware interactions in a modular and scalable manner. For more details on the philosophy and design of MCP, visit [Model Context Protocol Introduction](https://modelcontextprotocol.io/introduction)
 
@@ -8,6 +12,8 @@ The **Model Context Protocol (MCP)** is a framework designed to standardize and 
 This repository is a collection of MCP servers for cybersecurity. The following server is implemented:  
 
 1. **VirusTotal** - Integrates with VirusTotal's API to fetch real-time threat intelligence data, including reports on IP addresses, domains, file hashes, and URLs, along with threat categories, attack tactics, and techniques.
+
+2. **RSTcloud** - Connects with the RSTcloud API to provide up-to-the-minute threat intelligence. This integration delivers detailed reports on IP addresses, domains, file hashes, and URLs, enriched with threat classifications, attack methods, and techniques..
 
 
 ## Prerequisites
